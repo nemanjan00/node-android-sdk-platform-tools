@@ -1,0 +1,10 @@
+{
+  "name": "node-android-sdk-platform-tools",
+  "version": "0.0.0",
+  "description": "adb and fastboot",
+  "main": "index.js",
+  "repository": "git@github.com:nemanjan00/node-android-sdk-platform-tools.git",
+  "author": "nemanjan00 <nemanjan00@gmail.com>",
+  "license": "UNLICENSED",
+  "private": false
+}
