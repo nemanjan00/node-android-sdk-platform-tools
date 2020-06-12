@@ -12,6 +12,6 @@ script:
 
 deploy:
   provider: npm
-  email: "YOUR_EMAIL_ADDRESS"
-  api_key: "YOUR_AUTH_TOKEN"
+  email: "nemanjan00@gmail.com"
+  api_key: $NPM_TOKEN
 
