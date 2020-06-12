@@ -1,10 +1,17 @@
 language: node_js
 node_js:
   - node
+
 install:
   - bash ./dev/download.sh
+
 script:
   - bash ./dev/validate.sh
   - bash ./dev/publish.sh
   - cat package.json
+
+deploy:
+  provider: npm
+  email: "YOUR_EMAIL_ADDRESS"
+  api_key: "YOUR_AUTH_TOKEN"
 
