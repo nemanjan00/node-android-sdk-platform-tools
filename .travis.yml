@@ -3,4 +3,6 @@ install:
   - bash ./dev/download.sh
 script:
   - bash ./dev/validate.sh
+  - bash ./dev/publish.sh
+  - cat package.json
 
