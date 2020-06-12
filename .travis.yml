@@ -1,0 +1,6 @@
+language: bash
+install:
+  - bash ./dev/download.sh
+script:
+  - bash ./dev/validate.sh
+
