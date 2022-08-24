@@ -1,7 +1,7 @@
 dist: bionic
 language: node_js
 node_js:
-  - node
+  - stable
 
 addons:
   artifacts: true
